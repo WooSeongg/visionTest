@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69780D982B8DDD9E005AACD1 /* example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69780D972B8DDD9E005AACD1 /* example.swift */; };
 		69896B032B8C76FB00AD22A8 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 69896B022B8C76FB00AD22A8 /* RealityKitContent */; };
 		69896B052B8C76FB00AD22A8 /* visionTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69896B042B8C76FB00AD22A8 /* visionTestApp.swift */; };
 		69896B072B8C76FB00AD22A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69896B062B8C76FB00AD22A8 /* ContentView.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69780D972B8DDD9E005AACD1 /* example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example.swift; sourceTree = "<group>"; };
 		69896AFD2B8C76FB00AD22A8 /* visionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69896B012B8C76FB00AD22A8 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RealityKitContent; sourceTree = "<group>"; };
 		69896B042B8C76FB00AD22A8 /* visionTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visionTestApp.swift; sourceTree = "<group>"; };
@@ -22,6 +24,7 @@
 		69896B082B8C76FC00AD22A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69896B0B2B8C76FC00AD22A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		69896B0D2B8C76FC00AD22A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B976692B9002160067BCCD /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 				69896B082B8C76FC00AD22A8 /* Assets.xcassets */,
 				69896B0D2B8C76FC00AD22A8 /* Info.plist */,
 				69896B0A2B8C76FC00AD22A8 /* Preview Content */,
+				69780D972B8DDD9E005AACD1 /* example.swift */,
+				69B976692B9002160067BCCD /* MyPlayground.playground */,
 			);
 			path = visionTest;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69780D982B8DDD9E005AACD1 /* example.swift in Sources */,
 				69896B072B8C76FB00AD22A8 /* ContentView.swift in Sources */,
 				69896B052B8C76FB00AD22A8 /* visionTestApp.swift in Sources */,
 			);
